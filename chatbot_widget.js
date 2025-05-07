@@ -1008,8 +1008,8 @@
                 if (flag === "close") {
                     loadingContainer.classList.add("show")
                     requiredParams = {
-                        client_name: "Easton Roofing ",
-                        service_name: "Sales Knowledge Worker ",
+                        client_name: "Sales sandbox",
+                        service_name: "Roofing demo",
                         language: "english",
                         msg: userInputTextValue.trim(),
                         flag: flag,
@@ -1020,8 +1020,8 @@
 
                 } else {
                     requiredParams = {
-                        client_name: "Easton Roofing ",
-                        service_name: "Sales Knowledge Worker ",
+                        client_name: "Sales sandbox",
+                        service_name: "Roofing demo",
                         language: "english",
                         msg: userInputTextValue.trim(),
                         flag: flag,
